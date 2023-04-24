@@ -10,5 +10,5 @@ def home():
     return 'Olá, mundo! Esta é uma aplicação web básica em Python usando o Flask.'
 
 # Executar o aplicativo na porta 5000 (ou em outra porta de sua escolha)
-if __name__ == '__main__':
+    if __name__ == '__main__':
 
