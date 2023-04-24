@@ -11,4 +11,4 @@ def home():
 
 # Executar o aplicativo na porta 5000 (ou em outra porta de sua escolha)
 if __name__ == '__main__':
-    app.run(port=5000)
+
