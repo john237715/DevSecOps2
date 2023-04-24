@@ -1,13 +1,14 @@
+# Importar módulos necessários
 from flask import Flask
 
-# Cria uma instância do Flask
+# Criar uma instância do aplicativo Flask
 app = Flask(__name__)
 
-# Define a rota padrão
+# Definir uma rota para a página inicial
 @app.route('/')
-def hello():
-    return 'Hello, World!'
+def home():
+    return 'Olá, mundo! Esta é uma aplicação web básica em Python usando o Flask.'
 
-# Executa a aplicação em modo de desenvolvimento
+# Executar o aplicativo na porta 5000 (ou em outra porta de sua escolha)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5000)
