@@ -1,5 +1,5 @@
 # Importar módulos necessários
-from flask import Flask
+from Flask import Flask
 
 # Criar uma instância do aplicativo Flask
 app = Flask(__name__)
